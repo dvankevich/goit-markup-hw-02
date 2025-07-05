@@ -11,7 +11,6 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 a {
@@ -19,23 +18,13 @@ a {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.07;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -75,7 +64,7 @@ a {
   background: #2e2f42;
 }
 
-.text1 {
+.title-one {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -98,22 +87,14 @@ a {
   background: #404bbf;
 }
 
-.text2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-}
-
-.text3 {
+.title-three {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
 }
 .s-three {
   background: #f4f4fd;
@@ -159,6 +140,7 @@ a {
 .s-three-list {
 }
 .s-three-list-item {
+  background-color: #ffffff;
 }
 .s-three-header {
   font-weight: 500;
